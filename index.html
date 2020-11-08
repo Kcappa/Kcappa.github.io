@@ -26,13 +26,13 @@
 
 <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: black;">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.html"><img id="logo" src="img/title.png" class="d-inline-block align-top" alt=""></a>
+    <a class="navbar-brand col-6 col-md-8" href="index.html"><img id="logo" src="img/title.png" class="d-inline-block align-top" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
     <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <ul class="navbar-nav col-6 col-md-4 mr-auto mt-2 mt-lg-0">
         <li class="nav-item active">
           <a class="nav-link" href="index.html">HOME</a>
         </li>
@@ -52,18 +52,20 @@
 
 
 
-<div class="container-fluid padding">
+<div class="container-fluid padding" id="Landing" class="Section">
 <div class="row padding text-center">
-  <div class="col-12">
+  <div class="col-12" id="vidContain">
     <video autoplay muted loop id="bgvid">
       <source src="img/Sequence3.mp4" type="video/mp4">
     </video>
   </div>
   <div class="col-12 overlay">
-    <div class="col-6 hero">
+
+    <div class="col-12 col-md-6 hero">
+      <img id="mobileIMG" class="img-fluid" src="img/InW.png" alt="">
     <h1 class="display-2">Never Rust. Never Stale.</h1>
     <hr>
-    <p class="lead">Iron and water</p>
+    <p class="lead">Personal Training and Muay Thai</p>
     <a id="CTA" href="#Pricing" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Book Now</a>
   </div>
   </div>
@@ -72,14 +74,14 @@
 
 
 <div class="container-fluid" id="About" class="Section">
-<div class="row padding">
-    <div class="col-6">
+<div id="aboutWrap" class="row padding">
+    <div id="hdshotWrap" class="col-12 col-md-6">
       <img id="headshot" src="img/headshot.JPG" class="img-fluid">
       <div id="vertHeading">
       <h1 class="display-4">ABOUT</h1>
       </div>
     </div>
-    <div class="col-6">
+    <div class="col-12 col-md-6">
       <div id="blurb">
       <h1 class="display-3">Kal</h1>
       <hr>
